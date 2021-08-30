@@ -1,0 +1,9 @@
+
+{
+  "name": "fatihsengul-book-store",
+  "buildpacks": [
+    {
+      "url": "heroku/gradle"
+    }
+  ]
+}
