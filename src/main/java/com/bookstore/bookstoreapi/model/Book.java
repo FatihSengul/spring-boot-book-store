@@ -10,6 +10,7 @@ import java.time.LocalDateTime;
 @Table(name = "books")
 public class Book {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,7 +18,7 @@ public class Book {
     @Column(name = "title", nullable = false, length = 100)
     private String title;
 
-    @Column(name = "description", nullable = false, length = 100)
+    @Column(name = "description", nullable = false, length = 1000)
     private String description;
 
     @Column(name = "author", nullable = false, length = 100)

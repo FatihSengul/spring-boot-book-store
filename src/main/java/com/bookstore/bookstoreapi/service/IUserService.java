@@ -11,6 +11,5 @@ public interface IUserService {
 
     Optional<User> findByUsername(String name);
 
-    @Transactional
     void makeAdmin(String username);
 }
